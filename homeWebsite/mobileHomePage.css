@@ -6,7 +6,7 @@ body{
 }
 
 /* make logo size mobile friendly */
-.logo--container{
+#logo {
     height: 100px;
     width: 100px;
 }
