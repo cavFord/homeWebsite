@@ -26,8 +26,8 @@ window.onload = function asteriod() {
     const ROIDS_PTS_MED = 50; // Points scored for medium asteroids
     const ROIDS_PTS_SML = 100; // Points scored for small asteroids
     const SAVE_KEY_SCORE = "highscore"; // save key for local storage of high score
-    const SOUND_ON = true;
-    const MUSIC_ON = true;
+    const SOUND_ON = false;
+    const MUSIC_ON = false;
 
     /** @type {HTMLCanvasElement} */
     var canv = document.getElementById("gameCanvas");

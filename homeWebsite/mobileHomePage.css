@@ -7,8 +7,8 @@ body{
 
 /* make logo size mobile friendly */
 #logo {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
 }
 
 /* Dropdown button */
@@ -127,12 +127,12 @@ body{
 
 #portfolio_button {
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 150px;
+    left: 150px;
 }
 
 #contact_button {
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom: 150px;
+    right: 150px;
 }

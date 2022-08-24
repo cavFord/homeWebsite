@@ -125,12 +125,12 @@ body{
 
 #portfolio_button {
     position: absolute;
-    top: 400px;
-    left: 400px;
+    top: 450px;
+    left: 425px;
 }
 
 #contact_button {
     position: absolute;
-    bottom: 400px;
-    right: 400px;
+    bottom: 450px;
+    right: 425px;
 }

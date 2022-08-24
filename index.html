@@ -4,68 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name = "description" content = "Application Middleware">
-    <meta name = "author" content = "Clyde">
+    <meta name="description" content="Application Middleware">
+    <meta name="author" content="Clyde">
     <title> Homepage </title>
     <link rel="stylesheet" href="./homeWebsite/homepageStyle.css" media="screen and (min-width: 781px)">
     <link rel="stylesheet" href="./homeWebsite/mobileHomePage.css" media="screen and (max-width: 780px)">
-    
+
 </head>
 
 <body>
-    
+
     <!-- Navigation Bar Container -->
     <div class="dropdown" style="float:right;">
 
-        <!-- Dropdown Button Container -->
+        <!-- Dropdown Portfolio Button Container -->
         <button class="dropbtn">Portfolio</button>
 
         <!-- Dropdown Content Container -->
         <div class="dropdown-content">
             <a href="./homeWebsite/asteroid.html">Asteroid</a>
-            <a href="#">Reddit Bot</a>
+            <a href="https://github.com/cavFord"> GitHub </a>
         </div>
     </div>
 
-    <!-- Regular Button Container -->
-    <div class="no--dropdown" style = "float:right;">
+    <div class="dropdown" style="float:right;">
 
-        <!-- Regular Button No Dropdown -->
-        <button class="button">Contact</button>
+        <!-- Dropdown Contact Button Container -->
+        <button class="dropbtn">Contact</button>
+
+        <!-- Dropdown Content Container -->
+        <div class="dropdown-content">
+            <a href="mailto: clydeaford@gmail.com"> Email </a>
+        </div>
     </div>
 
     <!-- Logo Container -->
     <div class="logo--container">
-        <img id = "logo" src="./homeWebsite/LOGO.png" alt="logo">
+        <img id="logo" src="./homeWebsite/LOGO.png" alt="logo">
     </div>
 
     <!-- Nav Rectangle Container -->
-    <div id = "rectangle"></div>
+    <div id="rectangle"></div>
 
     <!-- Circle Navigation -->
-    <div class = "circles">
+    <div class="circles">
 
-        <!-- Circle One -->   
-    <div id = "circle_one">
-        <div class = "shape circle to-zoom"></div>
-    </div>
-    <!-- Circle One Button -->
-    <div id = "portfolio_button">
-        <button class = "button">Portfolio</button>
-    </div>
-    
-    <!-- Circle Two -->
-    <div id = "circle_two">
-        <div class = "shape circle to-zoom"></div>
-    </div>
+        <!-- Circle One -->
+        <div id="circle_one">
+            <div class="shape circle to-zoom"></div>
+        </div>
+        <!-- Portfolio Button -->
+        <div id="portfolio_button">
+            <div class="dropdown">
+                <button class="dropbtn">Portfolio</button>
+                <div class="dropdown-content">
+                    <a href="./homeWebsite/asteroid.html">Asteroid</a>
+                    <a href="https://github.com/cavFord"> GitHub </a>
+                </div>
+            </div>
+        </div>
 
-    <!-- Contact Button -->
-    <div id = "contact_button">
-        <button class = "button" >Contact</button>
-        <a href = "https://github.com/cavFord"> GitHub </a>
-        <a href = "mailto: clydeaford@gmail.com"> Email </a>
+        <!-- Circle Two -->
+        <div id="circle_two">
+            <div class="shape circle to-zoom"></div>
+        </div>
 
-    </div>
+        <!-- Contact Button -->
+        <div id="contact_button">
+            <div class="dropdown">
+                <button class="dropbtn">Contact</button>
+
+                <div class="dropdown-content">
+                    <a href="mailto: clydeaford@gmail.com"> Email </a>
+                </div>
+            </div>
+        </div>
 
     </div>
 
